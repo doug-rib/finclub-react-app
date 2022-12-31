@@ -12,6 +12,24 @@
   border-radius: 20px;
 }
 
+@media (max-width: 995px) {
+  .contentText {
+    width: 500px;
+  }
+}
+
+@media (max-width: 545px) {
+  .contentText {
+    width: 300px;
+  }
+}
+
+@media (max-width: 345px) {
+  .contentText {
+    width: 220px;
+  }
+}
+
 .header1 {
   height: 10vh;
 }
@@ -66,6 +84,20 @@
   color: white;
 }
 
+@media (max-width: 345px) {
+  .contentFooter {
+    font-size: small;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  #footerButton {
+    font-size: small;
+  }
+}
+
 .email {
   text-decoration: underline;
 }
@@ -83,7 +115,13 @@
 .coinTable {
   border-radius: 1rem;
   max-width: 36rem;
-  font-size: 1.2rem;
+  font-size: 20px;
+}
+
+@media (max-width: 310px) {
+  .coinTable {
+    font-size: 17px;
+  }
 }
 
 .conversorOptions {
@@ -100,6 +138,30 @@
   background-position: center;
 }
 
+.cryptoTable {
+  border-radius: 1rem;
+  max-width: 36rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 770px) {
+  .cryptoTable {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 555px) {
+  .cryptoTable {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 495px) {
+  .cryptoTable {
+    font-size: 10px;
+  }
+}
+
 .iconImage {
   max-width: 1.4rem;
 }
@@ -114,7 +176,13 @@
 }
 
 .formValues {
-  min-width: 100vh;
+  min-width: 610px;
   background-color: #8d4444;
   border-radius: 20px;
+}
+
+@media (max-width: 610px) {
+  .formValues {
+    min-width: 200px;
+  }
 }

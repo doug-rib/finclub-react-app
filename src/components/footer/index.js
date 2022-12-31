@@ -15,13 +15,11 @@ function Footer() {
           </p>
           <div>
             <Button
-              className="p-3 pe-4 ps-4 me-3"
+              id="footerButton"
+              className="p-3 pe-4 ps-4"
               variant="outline-light"
               size="lg"
             >
-              EXEMPLOS
-            </Button>
-            <Button className="p-3 pe-4 ps-4" variant="outline-light" size="lg">
               INFORMAÇÕES
             </Button>
           </div>
@@ -30,7 +28,7 @@ function Footer() {
 
       <Container
         fluid
-        className="footer d-flex justify-content-center text-center"
+        className="footer d-flex justify-content-center text-center "
       >
         <span class="me-4"> Douglas &copy;2022 </span>
         <a href="https://www.instagram.com/" className="me-4">

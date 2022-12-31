@@ -16,7 +16,7 @@ import Table from "react-bootstrap/Table";
 
 function ListCrypto(props) {
   return (
-    <Table striped bordered hover variant="dark" className="coinTable mt-5">
+    <Table striped bordered hover variant="dark" className="cryptoTable mt-3">
       <thead>
         <tr>
           <th>#</th>

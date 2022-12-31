@@ -15,7 +15,7 @@ const NavbarTop = (props) => {
   }
 
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container fluid>
         <Navbar.Brand href="/">FinClub</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

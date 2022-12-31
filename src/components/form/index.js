@@ -11,16 +11,16 @@ function FinancialForm(props) {
   const [installmentValue, setInstallmentValue] = useState("");
 
   const handleLoanValueChange = (event) =>
-    setLoanValue(event.currentTarget.value);
+    setLoanValue(event.currentTarget.value.replace(",", "."));
 
   const handleNumberOfInstallments = (event) =>
-    setNumberOfIntallments(event.currentTarget.value);
+    setNumberOfIntallments(event.currentTarget.value.replace(",", "."));
 
   const handleInterestRate = (event) =>
-    setInterestRate(event.currentTarget.value);
+    setInterestRate(event.currentTarget.value.replace(",", "."));
 
   const handleMonthlyContribuitionChange = (event) =>
-    setMonthlyContribuition(event.currentTarget.value);
+    setMonthlyContribuition(event.currentTarget.value.replace(",", "."));
 
   const getInstallmentValue = () => {
     if (props.investments) {
@@ -33,7 +33,7 @@ function FinancialForm(props) {
     } else {
       v = pmt(interestRate / 100, numberOfIntallments, -loanValue);
     }
-    setInstallmentValue(v.toFixed(2));
+    setInstallmentValue(String(v.toFixed(2)).replace(".", ","));
   };
 
   let v;

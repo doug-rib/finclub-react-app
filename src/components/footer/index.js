@@ -19,6 +19,7 @@ function Footer() {
               className="p-3 pe-4 ps-4"
               variant="outline-light"
               size="lg"
+              href="https://github.com/doug-rib"
             >
               INFORMAÇÕES
             </Button>

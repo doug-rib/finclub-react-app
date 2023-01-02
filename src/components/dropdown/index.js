@@ -7,7 +7,7 @@ function Dropdownquotes() {
         variant="outline-light"
         id="dropdown-basic"
         size="lg"
-        className="p-3 pe-4 ps-4"
+        className="mt-1 p-3 pe-4 ps-4"
       >
         Cotações
       </Dropdown.Toggle>

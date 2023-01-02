@@ -33,7 +33,7 @@ function Footer() {
       >
         <span class="me-4"> Douglas &copy;2022 </span>
         <a href="https://www.instagram.com/" className="me-4">
-          Intagram
+          Instagram
         </a>
         <a href="https://www.youtube.com/" className="me-4">
           Youtube

@@ -21,7 +21,7 @@ function Index() {
         className="header headerInfo strong d-flex flex-column justify-content-center"
       >
         <Container data-aos="fade-down-right" data-aos-duration="2000">
-          <div className="contentText">
+          <div className="contentText p-1">
             <Container>
               <h1>FINCLUB</h1>
               <p>
@@ -43,7 +43,7 @@ function Index() {
         className="content SAF weak d-flex flex-column justify-content-center"
       >
         <Container data-aos="fade-down-right" data-aos-duration="2000">
-          <div className="contentText">
+          <div className="contentText p-1">
             <Container>
               <h1>Finaciamento (SAF):</h1>
               <p>
@@ -57,7 +57,7 @@ function Index() {
 
           <Button
             href="/saf"
-            className="p-3 pe-4 ps-4"
+            className="mt-1 p-3 pe-4 ps-4"
             variant="outline-light"
             size="lg"
           >
@@ -71,7 +71,7 @@ function Index() {
         className="content investments d-flex flex-column justify-content-center"
       >
         <Container data-aos="fade-down-right" data-aos-duration="2000">
-          <div className="contentText">
+          <div className="contentText p-1">
             <Container>
               <h1>Investimentos:</h1>
               <p>
@@ -85,7 +85,7 @@ function Index() {
 
           <Button
             href="/investments"
-            className="p-3 pe-4 ps-4"
+            className="mt-1 p-3 pe-4 ps-4"
             variant="outline-light"
             size="lg"
           >
@@ -99,7 +99,7 @@ function Index() {
         className="content quotes d-flex flex-column justify-content-center"
       >
         <Container data-aos="fade-down-right" data-aos-duration="2000">
-          <div className="contentText">
+          <div className="contentText p-1">
             <Container>
               <h1>Cotações:</h1>
               <p>
